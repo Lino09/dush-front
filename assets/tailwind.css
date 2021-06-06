@@ -1,0 +1,14 @@
+/* ./assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .up {
+    box-shadow: 6px 6px 10px #cbcde1, -6px -6px 10px white
+  }
+
+  .down {
+    box-shadow: inset 6px 6px 7px #cbcde1, inset -6px -6px 7px white
+  }
+}
